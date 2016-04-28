@@ -16,7 +16,7 @@ object Aggregate {
     val result = pairs.aggregate(3) (
       (acc, value) => (acc + value._2),(acc1, acc2) => (acc1 + acc2)
     )
-    println(result)
+    println("Final Result - >"+result)
 
   }
 }
